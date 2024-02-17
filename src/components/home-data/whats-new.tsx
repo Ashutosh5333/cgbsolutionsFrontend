@@ -27,7 +27,8 @@ const WhatsNew = () => {
                 <div className="counter-wrapper pt-80 pb-80">
                 <div className="row">
                     <div className="title-one">
-                        {/* <div className="upper-title"></div> */}
+                       
+                       
                         <h2>What's New</h2>
                     </div>
                     <div
