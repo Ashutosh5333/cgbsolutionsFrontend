@@ -49,8 +49,14 @@ const ContactForm = () => {
     .then((response: any) => {
       
       console.log('Success:', response);
-       if(response?.payload.msg ==="Message sent successfully"){
+       if(response?.payload?.msg ==="Message sent successfully"){
         notifySuccess(response?.payload.msg)
+       }
+       else if (response?.payload == "undefined"){
+        notifyError("Something went wrong")
+       }
+       else{
+        notifyError("Something went wrong")
        }
     })
     .catch((error: any) => {
