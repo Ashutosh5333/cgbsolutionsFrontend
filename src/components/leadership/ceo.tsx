@@ -15,13 +15,28 @@ const CeoData = ({ style_2 = false }: { style_2?: boolean }) => {
   return (
     <>
       {!style_2 && (
-        <div className="text-feature-one  light-bg pt-120 lg-pt-80 pb-150 lg-pb-80">
-          <div className="container">
+        <div 
+        
+        className="text-feature-one  light-bg pt-120 lg-pt-80 pb-150 lg-pb-80">
+          <div
+         
+          className="container">
             <div className="row align-items-center">
-                <div className="col-xl-5 col-lg-6 wow fadeInRight">
+                <div
+                
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                className="col-xl-5 col-lg-6 wow fadeInRight">
                 <Image src={sindhu} layout='responsive' width={300} height={400} alt="About us" className="w-100"></Image>
               </div>
-              <div className="col-xl-7 col-lg-6 wow fadeInLeft">
+
+              <div 
+              
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              className="col-xl-7 col-lg-6 wow fadeInLeft">
                 <div className="title-one">
                   <h2>Sindhu B.R.J</h2>
                   <div className="upper-title d-flex" style={{ fontSize: "26px" }}>CEO, <span>
@@ -51,7 +66,9 @@ const CeoData = ({ style_2 = false }: { style_2?: boolean }) => {
       )}
       {style_2 && (
         <div className="text-feature-one mt-150 lg-mt-100">
-            <div className="container">
+            <div 
+        
+            className="container">
             <div className="row align-items-center">
                 <div className="col-xl-5 col-lg-6 wow fadeInLeft">
                 <div className="title-one">

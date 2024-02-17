@@ -41,13 +41,19 @@ function CounterBlock ({num,text,title,delay}:{num:number;text:string;title:stri
 }
 
 const TextFeatureHome = ({ style_2 = false }: { style_2?: boolean }) => {
+
+
+
   return (
     <>
       {!style_2 && (
         <div className="text-feature-one mt-150 lg-mt-100">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-xl-5 col-lg-6 wow fadeInLeft">
+              <div 
+              data-aos="fade-right"
+              data-aos-offset="300"
+              className="col-xl-5 col-lg-6 wow ">
                 <div className="title-one">
                   <div className="upper-title">About us</div>
                   <h2>Where Technology meets Excellence</h2>
@@ -67,7 +73,10 @@ const TextFeatureHome = ({ style_2 = false }: { style_2?: boolean }) => {
                   </Link> */}
                 </div>
               </div>
-              <div className="col-xl-7 col-lg-6 wow fadeInRight">
+              <div 
+              data-aos="fade-left"
+              data-aos-offset="300"
+              className="col-xl-7 col-lg-6 wow ">
                 {/* <Image src={ab} alt="About us" className="w-100"></Image> */}
                 <div className="media-list-item ms-auto pe-xxl-5 pe-4 ps-xxl-5 ps-4 pb-35 md-mt-60 d-flex align-items-end">
                   <ul className="style-none">

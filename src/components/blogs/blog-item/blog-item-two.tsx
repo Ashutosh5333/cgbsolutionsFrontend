@@ -4,7 +4,10 @@ import { IBlog } from "@/types/blog-d-t";
 
 const BlogItemTwo = ({ blog }: { blog: IBlog }) => {
   return (
-    <article className="blog-meta-one mt-35 sm-mt-30 wow fadeInUp">
+    <article 
+    
+    data-aos="zoom-in-right"
+    className="blog-meta-one mt-35 sm-mt-30 wow fadeInUp">
       <div className="post-data">
         <div className="post-info">
           <span className="fw-500 text-dark">{blog.author} -</span> {blog.date}

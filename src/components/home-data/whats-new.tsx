@@ -1,8 +1,11 @@
-import React from 'react'
+'use client';
+
+import React, { useEffect } from 'react'
 import Image from 'next/image';
 import Whatsnew from "@/assets/images/cgbhome/whatsnew.png"
 import bg_image from "@/assets/images/background/backgroundnew.jpg"
-import useAnimationObserver from '@/hooks/use-animation';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const backImg = {
     backgroundImage: `url('${bg_image.src}')`,
@@ -12,7 +15,9 @@ const backImg = {
 }
 
 const WhatsNew = () => {
-    
+    useEffect(()=>{
+        AOS.init();
+    },[])
 
 
   return (
@@ -25,16 +30,28 @@ const WhatsNew = () => {
                         {/* <div className="upper-title"></div> */}
                         <h2>What's New</h2>
                     </div>
-                    <div className="col-md-3 mb-35 mt-35  wow fadeInUp" data-wow-delay="0.0s">
+                    <div
+                     data-aos="fade-up"
+                     data-aos-duration="3000"
+                    className="col-md-3 mb-35 mt-35  wow " data-wow-delay="0.0s">
                         <Image src={Whatsnew} alt="what's new" className="w-100 h-100 shadowimg" />
                     </div>
-                    <div className="col-md-3 mb-35 mt-35  wow fadeInUp" data-wow-delay="0.1s">
+                    <div
+                     data-aos="fade-up"
+                     data-aos-duration="3000"
+                    className="col-md-3 mb-35 mt-35  wow " data-wow-delay="0.1s">
                         <Image src={Whatsnew} alt="what's new" className="w-100 h-100 shadowimg" />
                     </div>
-                    <div className="col-md-3 mb-35 mt-35  wow fadeInUp" data-wow-delay="0.2s">
+                    <div
+                     data-aos="fade-up"
+                     data-aos-duration="3000"
+                    className="col-md-3 mb-35 mt-35  wow " data-wow-delay="0.2s">
                         <Image src={Whatsnew} alt="what's new" className="w-100 h-100 shadowimg" />
                     </div>
-                    <div className="col-md-3 mb-35 mt-35  wow fadeInUp" data-wow-delay="0.3s">
+                    <div 
+                     data-aos="fade-up"
+                     data-aos-duration="3000"
+                    className="col-md-3 mb-35 mt-35  wow " data-wow-delay="0.3s">
                         <Image src={Whatsnew} alt="what's new" className="w-100 h-100 shadowimg" />
                     </div>
                 </div>
