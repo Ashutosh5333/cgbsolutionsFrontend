@@ -33,25 +33,25 @@ const WhatsNew = () => {
                     <div
                      data-aos="fade-up"
                      data-aos-duration="3000"
-                    className="col-md-3 mb-35 mt-35  wow " data-wow-delay="0.0s">
+                    className="col-xl-3 mb-35 mt-35  wow " data-wow-delay="0.0s">
                         <Image src={Whatsnew} alt="what's new" className="w-100 h-100 shadowimg" />
                     </div>
                     <div
                      data-aos="fade-up"
                      data-aos-duration="3000"
-                    className="col-md-3 mb-35 mt-35  wow " data-wow-delay="0.1s">
+                    className="col-xl-3 mb-35 mt-35  wow " data-wow-delay="0.1s">
                         <Image src={Whatsnew} alt="what's new" className="w-100 h-100 shadowimg" />
                     </div>
                     <div
                      data-aos="fade-up"
                      data-aos-duration="3000"
-                    className="col-md-3 mb-35 mt-35  wow " data-wow-delay="0.2s">
+                    className="col-xl-3 mb-35 mt-35  wow " data-wow-delay="0.2s">
                         <Image src={Whatsnew} alt="what's new" className="w-100 h-100 shadowimg" />
                     </div>
                     <div 
                      data-aos="fade-up"
                      data-aos-duration="3000"
-                    className="col-md-3 mb-35 mt-35  wow " data-wow-delay="0.3s">
+                    className="col-xl-3 mb-35 mt-35  wow " data-wow-delay="0.3s">
                         <Image src={Whatsnew} alt="what's new" className="w-100 h-100 shadowimg" />
                     </div>
                 </div>
