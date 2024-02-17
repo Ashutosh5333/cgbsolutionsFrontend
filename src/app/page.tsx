@@ -1,3 +1,4 @@
+import CustomSwiper from "@/components/OurTeam/TeamSwiper";
 import BlockFeatureOne from "@/components/block-feature/block-feature-one";
 import BlockFeatureThree from "@/components/block-feature/block-feature-three";
 import BlockFeatureTwo from "@/components/block-feature/block-feature-two";
@@ -38,6 +39,10 @@ export default function HomePage() {
           {/* whatsnew section start */}
           <WhatsNew />
           {/* whatsnew section end */}
+
+          {/* Team swiper start */}
+       
+           {/* Team swiper end */}
 
           {/* about us content start  */}
            <TextFeatureHome />

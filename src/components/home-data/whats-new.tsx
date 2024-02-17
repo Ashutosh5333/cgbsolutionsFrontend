@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import Whatsnew from "@/assets/images/cgbhome/whatsnew.png"
 import bg_image from "@/assets/images/background/backgroundnew.jpg"
+import useAnimationObserver from '@/hooks/use-animation';
 
 const backImg = {
     backgroundImage: `url('${bg_image.src}')`,
@@ -11,6 +12,9 @@ const backImg = {
 }
 
 const WhatsNew = () => {
+    
+
+
   return (
     <>
         <div className="full" style={backImg}>
